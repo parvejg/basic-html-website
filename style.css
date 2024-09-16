@@ -1,0 +1,10 @@
+header{
+   border: 2px solid black;
+   width: 720px;
+   height: 300px;
+}
+a{
+text-align: end;
+text-decoration: none;
+color: black;
+}
