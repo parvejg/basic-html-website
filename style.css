@@ -1,20 +1,17 @@
 header{
    border: 2px solid black;
-   width: 720px;
-   height: 280px;
+
 }
 article{
    height: 100%;
    border: 2px solid black;
-   width: 720px;
-   height: 700px;
+
 }
 h2 , .reviews-heading , .all-right-reserved{
    text-align: center;
 }
 .navbar-links-wrapper,.nav-links{
    text-align: right;
-   padding-bottom: 1rem;
    padding-right: 8px;
    text-decoration: none;
    color: black;
@@ -45,21 +42,22 @@ h3 , h4 , p ,a{
    display: flex;
 }
 .reviews-container{
-   align-items: center;
    gap: 1rem;
    border-top: 1px solid black;
+   align-items: center;
 }
 .all-reviews-container{
    display: flex;
-   gap: 1rem
+   justify-content: center;
+   gap: 2%;
 }
 .reviews-text{
    border: 1px solid black;
-   margin: 1rem;
    border-radius: 2rem;
    height: 120px;
    width: 200px;
    padding: 1rem;
+   text-align: center;
 }
 .project-link-wrapper{
    width: 100%;
