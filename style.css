@@ -1,10 +1,87 @@
 header{
    border: 2px solid black;
    width: 720px;
-   height: 300px;
+   height: 280px;
 }
-a{
-text-align: end;
-text-decoration: none;
-color: black;
+article{
+   height: 100%;
+   border: 2px solid black;
+   width: 720px;
+   height: 700px;
+}
+h2 , .reviews-heading , .all-right-reserved{
+   text-align: center;
+}
+.navbar-links-wrapper,.nav-links{
+   text-align: right;
+   padding-bottom: 1rem;
+   padding-right: 8px;
+   text-decoration: none;
+   color: black;
+}
+.project-link{
+   text-decoration: none;
+   padding-left: 1rem;
+   color: black;
+   border-top: 1px solid black ;
+}
+h3 , h4 , p ,a{
+   text-align: left;
+   padding-left: 1rem;
+}
+
+.projects{
+   width: 25%;
+   border-right: 1px solid black;
+}
+.work-experience{
+   width: 40%;
+   border-right: 1px solid black;
+}
+.education{
+   width: 35%;
+}
+.projects-work-exp-education{
+   display: flex;
+}
+.reviews-container{
+   align-items: center;
+   gap: 1rem;
+   border-top: 1px solid black;
+}
+.all-reviews-container{
+   display: flex;
+   gap: 1rem
+}
+.reviews-text{
+   border: 1px solid black;
+   margin: 1rem;
+   border-radius: 2rem;
+   height: 120px;
+   width: 200px;
+   padding: 1rem;
+}
+.project-link-wrapper{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+}
+form{
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   gap: 0.3rem;
+}
+input , textarea{
+   width: 50%;
+   align-items: center;
+   padding: 0.5rem;
+   margin-left: 1rem;
+}
+button{
+   padding: .2rem;
+   width: 100px;
+   margin-left: 1rem;
+   cursor: pointer;
 }

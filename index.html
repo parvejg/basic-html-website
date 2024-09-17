@@ -1,30 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="style.css" />
-   <title>basic html website</title>
-</head>
-<body>
-   <main>
-      <header>
-         <h3>Md Parvej</h3>
-         <nav>
-            <a href="">Home</a>
-            <span>/</span>
-            <a href="">Projects</a>
-            <span>/</span>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-            <a href="">Articles</a>
-            <span>/</span>
+    <meta
+      name="description"
+      content="A basic html website, semantic html and basic  css."
+    />
+    <meta name="keywords" content="Md Parvej, Front-End Developer" />
+    <meta name="author" content="Md Parvej" />
+    <meta name="skills" content="HTML, CSS" />
 
-            <a href="">Contact</a>
-         </nav>
-         <h2>Frontend Developer</h2>
+    <meta property="og:title" content="Md Parvej basic html website" />
+    <meta
+      property="og:description"
+      content="Baic html website with semantic html and basic css"
+    />
+    <meta property="og:type" content="website" />
 
-      </header>
- 
-   </main>
-</body>
+    <link rel="stylesheet" href="style.css" />
+    <title>basic html website</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar-links-wrapper">
+        <h3>Md Parvej</h3>
+        <a href="index.html" class="nav-links">Home</a>
+        <span>/</span>
+        <a href="projects.html" class="nav-links">Projects</a>
+        <span>/</span>
+        <a href="contact.html" class="nav-links">Contact</a>
+      </nav>
+      <h2>Frontend Developer</h2>
+    </header>
+
+    <article>
+      <main class="projects-work-exp-education">
+        <section class="projects">
+          <h4>Projects</h4>
+          <nav class="project-link-wrapper">
+            <p>Html only portfolio</p>
+            <a href="" class="project-link">Calculator</a><br />
+            <a href="" class="project-link">Quiz App</a><br />
+            <a href="" class="project-link">Countdown Timer</a><br />
+            <a href="" class="project-link">Product upcoming page</a>
+          </nav>
+        </section>
+        <section class="work-experience">
+          <h4>Work Experience</h4>
+          <section class="frontend-projects-section">
+            <p>Solve all Frontend projects</p>
+            <a>Visit my Profile</a>
+          </section>
+
+          <section class="openSource-work">
+            <h4>OpenSoruce work</h4>
+            <p>
+              Contributed to 50 opensource projects.Made my own projects with
+              200 Github stars
+            </p>
+            <a>visit my Github Profile</a>
+          </section>
+        </section>
+        <section class="education">
+          <h4>Education</h4>
+          <p>
+            Graduated with 3.76 out of 4 CGPA. Won Acme Hackathon. Organized 30
+            sessions.
+          </p>
+          <p>Courses I took:</p>
+          <ul type="dashed">
+            <li>Object Oriented Programming</li>
+            <li>Data Structures and Algorithms</li>
+            <li>Web Engineering</li>
+            <li>Artificial Intelligence</li>
+            <li>Human Computer Interaction</li>
+            <li>Computer Graphics</li>
+            <li>Database Management Systems</li>
+            <li>Distributed Management Systems</li>
+            <li>Discreel Mathematics</li>
+          </ul>
+        </section>
+      </main>
+      <section class="reviews-container">
+        <h4 class="reviews-heading">Review from my Teachers</h4>
+        <section class="all-reviews-container">
+          <p class="reviews-text">
+            Jond was a billiant student, always stood out with his assignments
+          </p>
+          <p class="reviews-text">
+            Jond was a billiant student, always stood out with his assignments
+          </p>
+          <p class="reviews-text">
+            Jond was a billiant student, always stood out with his assignments
+          </p>
+        </section>
+        <h3 class="all-right-reserved">all rights reserved 2025</h3>
+      </section>
+    </article>
+  </body>
 </html>
